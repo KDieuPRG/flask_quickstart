@@ -2,4 +2,5 @@
 
 export FLASK_APP=app
 export FLASK_ENV=development
-source ~/flask_quickstart/bin/activate
+# shellcheck disable=SC1091
+source ./flask_quickstart/bin/activate
